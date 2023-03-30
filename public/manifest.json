@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Task Assigning Formater",
+  "name": "Task Formater",
   "description": "This extension will help to copy the content for specific task and will reduce the time in asssiging a task",
   "version": "1.0",
   "browser_action": {
