@@ -74,7 +74,7 @@ const Buttons10 = (props) => {
                             onMouseLeave={() => {
                                 setDropDown(false);
                             }}
-                            className="fixed bg-white shadow-lg border-2 top-[21rem]  py-2 rounded-md px-4 w-auto z-30"
+                            className="fixed bg-white shadow-lg border-2 top-[20rem]  py-2 rounded-md px-4 w-auto z-30"
                         >
                             <ul className="flex-col justify-center items-center">
                                 <li className="flex py-2 hover:text-violet-400 text-black text-md items-center font-medium  " onClick={copyPDFUpload}>

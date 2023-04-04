@@ -10,7 +10,8 @@ export const VeevaIB = (`Email Veeva IB Task:
         4. Assets Audit queries: .msg
         5. Unit testing Checklist: Email_UnitTestingChecklist _V2.xlsx
         6. Veeva Details ss: .png
-        7. Outlook Test Blast: .msg
+        7. Veeva LinkDoc ss (only for Taiwan): .png
+        8. Outlook Test Blast: .msg
         
         Scope: (Please provide here the WF link where scope is mentioned, and copy paste the scope as it is mentioned by DPPM)
         
