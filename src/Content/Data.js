@@ -1,68 +1,63 @@
-export const VeevaIB = (`Email Veeva IB Task:
+export const VeevaIB = (`Hi @Swati,
 
-        Hi @Swati,
-        
-        Can you please assign IB task to QA
-        
-        1. Test in build: ET_Jobcode_IB.zip
-        2. Mockup: .pdf/ .ppt /.doc
-        3. Reference Build (if any):.zip
-        4. Assets Audit queries: .msg
-        5. Unit testing Checklist: Email_UnitTestingChecklist _V2.xlsx
-        6. Veeva Details ss: .png
-        7. Veeva LinkDoc ss (only for Taiwan): .png
-        8. Outlook Test Blast: .msg
-        
-        Scope: (Please provide here the WF link where scope is mentioned, and copy paste the scope as it is mentioned by DPPM)
-        
-        Veeva details:
-        Document No: ET-No
-        Document Name:
-        Description (Taxonomy):
-        Product:
-        Country:
-        Subject:
-        Pre-header (If Any):
-        
-        Sync cycle time:
-        
-        Note:
-        
-        FYI: @DPPM @FTM @RM
-        
-        Please let me know if you have any queries
-        
-        Regards,
-        WD Name
+Unit testing is completed for this request, can you please assign IB task to QA
+
+1. Test in build: ET_Jobcode_IB.zip
+2. Mockup: .pdf/ .ppt /.doc
+3. Assets Audit queries: .msg
+4. Unit testing Checklist: Email_UnitTestingChecklist_V1.xlsx
+5. Veeva Details ss: .png/.jpeg/.jpg
+6. Outlook Test Blast: .msg
+
+Scope: (Please provide here the WF link where scope is mentioned, and copy paste the scope as it is mentioned by DPPM)
+
+Veeva details:
+Document No: ET-No
+Email Name:
+Description (Taxonomy):
+Product:
+Country:
+Subject:
+Pre-header:
+
+Sync cycle time:
+
+Note:
+
+FYI: @DPPM @FTM
+
+Please let me know if you have any queries
+
+Regards,
+WD Name
         `)
 
-export const VeevaCR = (`Email Veeva CR Task:
+export const VeevaCR = (`Hi @Swati,
 
-Hi @Swati,
-
-Can you please assign CR task to QA
+Unit testing is completed for this request, can you please assign CR task to QA
 
 1. Test in build: ET_Jobcode_CR.zip
-2. Reference Build:
+2. Reference Mockup:
 3. Change Log:
-4. Veeva Details ss: .png (if changes done any)
+4. Veeva Details ss: .png/.jpeg/.jpg (if changes done any)
 5. Outlook Test Blast: .msg
 
 Scope: (Please provide here the WF link where scope is mentioned, and copy paste the scope as it is mentioned by DPPM)
 
 Veeva details:
 Document No: ET-No
-Document Name:
+Email Name:
 Description (Taxonomy):
 Product:
 Country:
 Subject:
 Pre-header:
+
 Sync cycle time:
 
 Note:
 
-FYI: @DPPM @FTM @RM
+FYI: @DPPM @FTM
 
 Please let me know if you have any queries
 
@@ -74,7 +69,7 @@ export const SfmcToVeeva = (`SFMC to Veeva conversion:-
 
 Hi @Swati
 
-Can you please assign the task to QA 
+Unit testing is completed for this request, can you please assign the task to QA 
 
 1. Test in: ET-no_Jobcode_IB.zip
 2. Reference SFMC build: Ref_Jobcode.zip
@@ -103,19 +98,16 @@ Please let me know if you have any queries.
 Regards,
 WD Name`)
 
-export const SfmcIB = (`Email SFMC IB Task:
+export const SfmcIB = (`Hi @Swati,
 
-Hi @Swati,
-
-Can you please assign IB task to QA
+Unit testing is completed for this request, can you please assign IB task to QA
 
 1. Test in build: Jobcode_IB.zip
 2. Mockup: .pdf/ .ppt /.doc
-3. Reference Build (if any):.zip
-4. Assets Audit queries: .msg
-5. Unit testing Checklist: Email_UnitTestingChecklist _V2.xlsx
-6. Outlook Test Blast: .msg
-7. SFMC Path:
+3. Assets Audit queries: .msg
+4. Unit testing Checklist: Email_UnitTestingChecklist_V1.xlsx
+5. Outlook Test Blast: .msg
+6. SFMC Path:
 
 Scope: (Please provide here the WF link where scope is mentioned, and copy paste the scope as it is mentioned by DPPM)
 
@@ -130,7 +122,7 @@ Pre-header:
 
 Note:
 
-FYI: @DPPM @FTM @RM
+FYI: @DPPM @FTM
 
 Please let me know if you have any queries
 
@@ -138,14 +130,12 @@ Regards,
 WD Name
 `)
 
-export const SfmcCR = (`SFMC CR Task:
+export const SfmcCR = (`Hi @Swati,
 
-Hi @Swati,
-
-Can you please assign CR task to QA
+Unit testing is completed for this request, can you please assign CR task to QA
 
 1. Test in build: Jobcode_CR.zip
-2. Reference Build:
+2. Reference Mockup:
 3. Change Log:
 4. Outlook Test Blast: .msg
 5. SFMC Path:
@@ -163,7 +153,7 @@ Pre-header:
 
 Note:
 
-FYI: @DPPM @FTM @RM
+FYI: @DPPM @FTM
 
 Please let me know if you have any queries
 
@@ -175,7 +165,7 @@ export const VeevaToSfmc = (`Veeva to SFMC conversion:-
 
 Hi @swati 
 
-Can you please assign the task to QA 
+Unit testing is completed for this request, can you please assign the task to QA 
 
 1. Test in: Jobcode_IB.zip
 2. Reference Veeva build: Ref_ET-no_Jobcode.zip
@@ -204,26 +194,22 @@ Please let me know if you have any queries.
 Regards,
 WD Name`)
 
-export const AssemblerVeevaIB = (`Email:
+export const AssemblerVeevaIB = (`Hi @Swati,
 
-Assembler Veeva IB Task:
-
-Hi @Swati,
-
-Can you please assign IB task to QA
+Unit testing is completed for this request, can you please assign IB task to QA
 
 1. Test in build: ET_Jobcode_IB.zip
 2. Mockup: .pdf/ .ppt /.doc
 3. Assets Audit queries: .msg
 4. Unit testing Checklist: Assembler_UnitTestingChecklist.xlsx
-5. Veeva Details ss: .png
+5. Veeva Details ss: .png/.jpeg/.jpg
 6. Outlook Test Blast: .msg
 
 Scope: (Please provide here the WF link where scope is mentioned, and copy paste the scope as it is mentioned by DPPM)
 
 Veeva details:
 Document No: ET-No
-Document Name:
+Email Name:
 Description (Taxonomy):
 Product:
 Country:
@@ -234,7 +220,7 @@ Sync cycle time:
 
 Note:
 
-FYI: @DPPM @FTM @RM
+FYI: @DPPM @FTM
 
 Please let me know if you have any queries
 
@@ -242,23 +228,21 @@ Regards,
 WD Name
 `)
 
-export const AssemblerVeevaCR = (`Assembler Veeva CR Task:
+export const AssemblerVeevaCR = (`Hi @Swati,
 
-Hi @Swati,
-
-Can you please assign IB task to QA
+Unit testing is completed for this request, can you please assign CR task to QA
 
 1. Test in build: ET_Jobcode_IB.zip
 2. Reference build: Ref_ET_Jobcode_IB.zip
 3. Assets Audit queries: .msg
-5. Veeva Details ss: .png
+5. Veeva Details ss: .png/.jpeg/.jpg
 6. Outlook Test Blast: .msg
 
 Scope: (Please provide here the WF link where scope is mentioned, and copy paste the scope as it is mentioned by DPPM)
 
 Veeva details:
 Document No: ET-No
-Document Name:
+Email Name:
 Description (Taxonomy):
 Product:
 Country:
@@ -269,7 +253,7 @@ Sync cycle time:
 
 Note:
 
-FYI: @DPPM @FTM @RM
+FYI: @DPPM @FTM
 
 Please let me know if you have any queries
 
@@ -277,11 +261,9 @@ Regards,
 WD Name
 `)
 
-export const AssemblerSfmcIB = (`Assembler SFMC IB Task:
+export const AssemblerSfmcIB = (`Hi @Swati,
 
-Hi @Swati,
-
-Can you please assign IB task to QA
+Unit testing is completed for this request, can you please assign IB task to QA
 
 1. Test in build: Jobcode_IB.zip
 2. Mockup: .pdf/ .ppt /.doc
@@ -303,7 +285,7 @@ Pre-header:
 
 Note:
 
-FYI: @DPPM @FTM @RM
+FYI: @DPPM @FTM
 
 Please let me know if you have any queries
 
@@ -311,11 +293,9 @@ Regards,
 WD Name
 `)
 
-export const AssemblerSfmcCR = (`Assembler SFMC CR Task
+export const AssemblerSfmcCR = (`Hi @Swati,
 
-Hi @Swati,
-
-Can you please assign IB task to QA
+Unit testing is completed for this request, can you please assign CR task to QA
 
 1. Test in build: Jobcode_IB.zip
 2. Reference build: Ref_Jobcode_IB.zip
@@ -336,7 +316,7 @@ Pre-header:
 
 Note:
 
-FYI: @DPPM @FTM @RM
+FYI: @DPPM @FTM
 
 Please let me know if you have any queries
 
@@ -344,11 +324,9 @@ Regards,
 WD Name
 `)
 
-export const iPadIB = (`iPad IB Task:
+export const iPadIB = (`Hi @Swati,
 
-Hi @Swati,
-
-Please do the testing for the following IB:
+Unit testing is completed for this request, Please do the testing for the following IB:
 
  1. Presentation details:
     a. Presentation name
@@ -375,7 +353,7 @@ Please do the testing for the following IB:
 5. Note:
     a. Add observations or note if any
 
-FYI: @DPPM @FTM @RM
+FYI: @DPPM @FTM
 
 Regards,
 WD Name
@@ -385,31 +363,31 @@ export const iPadCR = (`iPad CR Task:
 
 Hi @Swati,
 
-Please do the testing for the following IB Update or CR:-
+Unit testing is completed for this request, Please do the testing for the following IB Update or CR:-
 
 1. Presentation details:
-  a. Presentation name
-  b. Document number
+    a. Presentation name
+    b. Document number
 
 2. Shared details (If any):
-  a. Shared name
-  b. Document number
+    a. Shared name
+    b. Document number
 
 3. Veeva Details (If any):
-  a. Product name
-  b. Description of presentation or slides
-  c. Country 
+    a. Product name
+    b. Description of presentation or slides
+    c. Country 
 
 4.  Documents:
-  a. Change log: Link from WF
-  b. Query sheet (If any): Link from WF
-  d. Email msg if any (If any): Link from WF
-  e. FRS Document (If any): Link from WF
+    a. Change log: Link from WF
+    b. Query sheet (If any): Link from WF
+    d. Email msg if any (If any): Link from WF
+    e. FRS Document (If any): Link from WF
 
 5. Note:
-  a. Add observations or note if any  
+    a. Add observations or note if any  
 
-FYI: @DPPM @FTM @RM
+FYI: @DPPM @FTM
 
 Regards,
 WD Name
@@ -419,7 +397,7 @@ export const WebsiteIB = (`Website IB Task:
 
 Hi @QA,
 
-Can you please proceed with IB task:-
+Unit testing is completed for this request, can you please proceed with IB task:-
 
 Preview or Test URL:
 
@@ -435,7 +413,7 @@ WD Queries:(If any)
 
 Notes:(If any)
 
-FYI: @DPPM @FTM @RM
+FYI: @DPPM @FTM
 
 Regards,
 WD Name
@@ -445,7 +423,7 @@ export const WebsiteUpdateIB = (`Website Update IB Task:
 
 Hi @QA,
 
-Can you please proceed with IB update task.
+Unit testing is completed for this request, can you please proceed with IB update task.
 
 Preview or Test URL:
 
@@ -461,7 +439,7 @@ WD Queries:(If any)
 
 Notes:(If any)
 
-FYI: @DPPM @FTM @RM
+FYI: @DPPM @FTM
 
 Regards,
 WD Name
@@ -471,7 +449,7 @@ export const WebsiteCR = (`Website CR task:
 
 Hi @QA,
 
-Can you please proceed with CR task.
+Unit testing is completed for this request, can you please proceed with CR task.
 
 Preview or Test URL:
 
@@ -487,7 +465,7 @@ WD Queries:(If any)
 
 Notes:(If any)
 
-FYI: @DPPM @FTM @RM
+FYI: @DPPM @FTM
 
 Regards,
 WD Name
@@ -497,7 +475,7 @@ export const WebsiteLiveValidation = (`Website Live Site validation task:
 
 Hi @QA,
 
-Can you please proceed with Live Site Validation task.
+Unit testing is completed for this request, can you please proceed with Live Site Validation task.
 
 Preview or Test URL:
 
@@ -513,7 +491,7 @@ WD Queries:(If any)
 
 Notes:(If any)
 
-FYI: @DPPM @FTM @RM
+FYI: @DPPM @FTM
 
 Regards,
 WD Name
@@ -523,20 +501,19 @@ export const OutlookIB = (`Outlook IB Task:
 
 Hi @Swati,
 
-Can you please assign task to QA
+Unit testing is completed for this request, can you please assign task to QA
 
-Test in build: Subject_line.oft file
+TTest in build: Subject_line.oft file
 Mockup: .pdf/. pptx
 Test blast: outlook test blast
 Query mail (if any):
-Subject Line:
 
 Scope: (Please provide here the WF link where scope is mentioned, and copy paste the scope as it is mentioned by DPPM)
 
 
 Notes:(If any)
 
-FYI: @DPPM @FTM @RM
+FYI: @DPPM @FTM
 
 Regards,
 WD Name
@@ -546,22 +523,22 @@ export const OutlookCR = (`Outlook CR task:
 
 Hi @Swati,
 
-Can you please assign task to QA
+Unit testing is completed for this request, can you please assign task to QA
 
 Test in build: Subject_line.oft file
 Reference build: Ref_ Subject_Line.oft
 Test blast: outlook test blast
 Query mail (if any):
-Subject Line:
 
 Scope: (Please provide here the WF link where scope is mentioned, and copy paste the scope as it is mentioned by DPPM)
 
 Notes:(If any)
 
-FYI: @DPPM @FTM @RM
+FYI: @DPPM @FTM
 
 Regards,
-WD Name`)
+WD Name
+`)
 
 export const ImageCropping = (`Hi @Binod/@Namisha,
 
