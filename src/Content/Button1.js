@@ -1,9 +1,12 @@
 import React from 'react'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { VeevaIB, SfmcToVeeva, VeevaCR } from "./Data"
 import { ToastContainer, toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 import ContentCopyRoundedIcon from '@mui/icons-material/ContentCopyRounded';
+import html2canvas from 'html2canvas';
+import { ReactDOM } from 'react';
+
 
 const Buttons1 = (props) => {
     const [dropDown, setDropDown] = useState(false);
@@ -11,12 +14,13 @@ const Buttons1 = (props) => {
     const [text1, setText1] = useState(VeevaIB);
     const [text2, setText2] = useState(VeevaCR);
     const [text3, setText3] = useState(SfmcToVeeva);
+   
 
-    const copyVeevaIB = async () => {
-        try {
-            await navigator.clipboard.writeText(text1);
+    const copyVeevaIB = () => {
+
+        navigator.clipboard.writeText(text1).then(() => {
             // console.log('Text copied to clipboard');
-            toast("Content Copied to clipboard", {
+            toast("Content Copied to Clipboard", {
                 position: "top-center",
                 autoClose: 2000,
                 hideProgressBar: false,
@@ -25,9 +29,13 @@ const Buttons1 = (props) => {
                 draggable: true,
                 progress: undefined,
                 type: "success",
-                
-            });
-        } catch (err) {
+
+            })
+            setTimeout(() => {
+                navigator.clipboard.writeText(" ")
+                console.log("clr clipboard")
+            }, 12000);
+        }).catch(() => {
             // console.error('Failed to copy text: ', err);
             toast("Failed to copy content to clipboard", {
                 position: "top-center",
@@ -40,13 +48,12 @@ const Buttons1 = (props) => {
                 type: "error",
 
             });
-        }
+        })
     }
-    const copyVeevaCR = async () => {
-        try {
-            await navigator.clipboard.writeText(text2);
+    const copyVeevaCR =  () => {
+        navigator.clipboard.writeText(text2).then(() => {
             // console.log('Text copied to clipboard');
-            toast("Content Copied to clipboard", {
+            toast("Content Copied to Clipboard", {
                 position: "top-center",
                 autoClose: 2000,
                 hideProgressBar: false,
@@ -55,9 +62,13 @@ const Buttons1 = (props) => {
                 draggable: true,
                 progress: undefined,
                 type: "success",
-                
-            });
-        } catch (err) {
+
+            })
+            setTimeout(() => {
+                // navigator.clipboard.writeText(" ")
+                console.log("clr clipboard")
+            }, 12000);
+        }).catch(() => {
             // console.error('Failed to copy text: ', err);
             toast("Failed to copy content to clipboard", {
                 position: "top-center",
@@ -70,14 +81,12 @@ const Buttons1 = (props) => {
                 type: "error",
 
             });
-        }
+        })
     }
-    const copySfmcToVeeva = async () => {
-        try {
-            await navigator.clipboard.writeText(text3);
+    const copySfmcToVeeva =  () => {
+        navigator.clipboard.writeText(text3).then(() => {
             // console.log('Text copied to clipboard');
-            // alert("Content Copied to clipboard")
-            toast("Content Copied to clipboard", {
+            toast("Content Copied to Clipboard", {
                 position: "top-center",
                 autoClose: 2000,
                 hideProgressBar: false,
@@ -86,12 +95,14 @@ const Buttons1 = (props) => {
                 draggable: true,
                 progress: undefined,
                 type: "success",
-                
-            });
 
-        } catch (err) {
+            })
+            setTimeout(() => {
+                // navigator.clipboard.writeText(" ")
+                console.log("clr clipboard")
+            }, 12000);
+        }).catch(() => {
             // console.error('Failed to copy text: ', err);
-            // alert("Failed to copy the content", err)
             toast("Failed to copy content to clipboard", {
                 position: "top-center",
                 autoClose: 2000,
@@ -103,8 +114,10 @@ const Buttons1 = (props) => {
                 type: "error",
 
             });
-        }
+        })
     }
+
+   
 
     return (
         <div>
@@ -118,7 +131,7 @@ const Buttons1 = (props) => {
                 pauseOnFocusLoss
                 draggable
                 pauseOnHover
-                style={{width:"280px", marginLeft:"60px"}}
+                style={{ width: "280px", marginLeft: "60px" }}
             />
             <div>
                 <div className="flex m-auto items-center justify-between w-full">
@@ -142,25 +155,27 @@ const Buttons1 = (props) => {
                         >
                             <ul className="flex-col justify-center items-center">
                                 <li className="flex py-2 hover:text-violet-400 text-black text-md items-center font-medium border-b-2" onClick={copyVeevaIB}>
-                                  {props.IB} <ContentCopyRoundedIcon className='mx-2'/>  
+                                    {props.IB} <ContentCopyRoundedIcon className='mx-2' />
                                 </li>
                                 <li className="flex py-2 hover:text-violet-400 text-black text-md items-center font-medium border-b-2" onClick={copyVeevaCR}>
-                                    {props.CR} <ContentCopyRoundedIcon className='mx-2'/>  
+                                    {props.CR} <ContentCopyRoundedIcon className='mx-2' />
                                 </li>
                                 <li className="flex py-2 hover:text-violet-400 text-black text-md items-center font-medium" onClick={copySfmcToVeeva}>
-                                    {props.Coversion} <ContentCopyRoundedIcon className='mx-2'/>  
+                                    {props.Coversion} <ContentCopyRoundedIcon className='mx-2' />
                                 </li>
                             </ul>
                         </div>}
                         <button className='flex justify-evenly m-auto text-center text-white bg-violet-400 border-0 p-2 focus:outline-none hover:bg-violet-500 rounded text-xs'
                         >
-                            {props.name}
+                          {props.name}
                         </button>
+                        
                     </span>
                 </div>
             </div>
         </div>
     )
 }
+
 
 export default Buttons1;

@@ -13,10 +13,9 @@ const Buttons3 = (props) => {
     const [text4, setText4] = useState(AssemblerSfmcCR)
 
     const copyAssemblerVeevaIB = async () => {
-        try {
-            await navigator.clipboard.writeText(text1);
+        navigator.clipboard.writeText(text1).then(() => {
             // console.log('Text copied to clipboard');
-            toast("Content Copied to clipboard", {
+            toast("Content Copied to Clipboard", {
                 position: "top-center",
                 autoClose: 2000,
                 hideProgressBar: false,
@@ -26,8 +25,12 @@ const Buttons3 = (props) => {
                 progress: undefined,
                 type: "success",
 
-            });
-        } catch (err) {
+            })
+            setTimeout(() => {
+                navigator.clipboard.writeText(" ")
+                // console.log("clr clipboard")
+            }, 12000);
+        }).catch(() => {
             // console.error('Failed to copy text: ', err);
             toast("Failed to copy content to clipboard", {
                 position: "top-center",
@@ -40,14 +43,13 @@ const Buttons3 = (props) => {
                 type: "error",
 
             });
-        }
+        })
     }
 
     const copyAssemblerVeevaCR = async () => {
-        try {
-            await navigator.clipboard.writeText(text2);
+        navigator.clipboard.writeText(text2).then(() => {
             // console.log('Text copied to clipboard');
-            toast("Content Copied to clipboard", {
+            toast("Content Copied to Clipboard", {
                 position: "top-center",
                 autoClose: 2000,
                 hideProgressBar: false,
@@ -57,8 +59,12 @@ const Buttons3 = (props) => {
                 progress: undefined,
                 type: "success",
 
-            });
-        } catch (err) {
+            })
+            setTimeout(() => {
+                navigator.clipboard.writeText(" ")
+                // console.log("clr clipboard")
+            }, 12000);
+        }).catch(() => {
             // console.error('Failed to copy text: ', err);
             toast("Failed to copy content to clipboard", {
                 position: "top-center",
@@ -71,14 +77,13 @@ const Buttons3 = (props) => {
                 type: "error",
 
             });
-        }
+        })
     }
     
     const copyAssemblerSfmcIB = async () => {
-        try {
-            await navigator.clipboard.writeText(text3);
+        navigator.clipboard.writeText(text3).then(() => {
             // console.log('Text copied to clipboard');
-            toast("Content Copied to clipboard", {
+            toast("Content Copied to Clipboard", {
                 position: "top-center",
                 autoClose: 2000,
                 hideProgressBar: false,
@@ -88,8 +93,12 @@ const Buttons3 = (props) => {
                 progress: undefined,
                 type: "success",
 
-            });
-        } catch (err) {
+            })
+            setTimeout(() => {
+                navigator.clipboard.writeText(" ")
+                // console.log("clr clipboard")
+            }, 12000);
+        }).catch(() => {
             // console.error('Failed to copy text: ', err);
             toast("Failed to copy content to clipboard", {
                 position: "top-center",
@@ -102,13 +111,12 @@ const Buttons3 = (props) => {
                 type: "error",
 
             });
-        }
+        })
     }
     const copyAssemblerSfmcCR = async () => {
-        try {
-            await navigator.clipboard.writeText(text4);
+        navigator.clipboard.writeText(text4).then(() => {
             // console.log('Text copied to clipboard');
-            toast("Content Copied to clipboard", {
+            toast("Content Copied to Clipboard", {
                 position: "top-center",
                 autoClose: 2000,
                 hideProgressBar: false,
@@ -118,8 +126,12 @@ const Buttons3 = (props) => {
                 progress: undefined,
                 type: "success",
 
-            });
-        } catch (err) {
+            })
+            setTimeout(() => {
+                navigator.clipboard.writeText(" ")
+                // console.log("clr clipboard")
+            }, 12000);
+        }).catch(() => {
             // console.error('Failed to copy text: ', err);
             toast("Failed to copy content to clipboard", {
                 position: "top-center",
@@ -132,7 +144,7 @@ const Buttons3 = (props) => {
                 type: "error",
 
             });
-        }
+        })
     }
     return (
         <div>
