@@ -11,10 +11,9 @@ const Buttons6 = (props) => {
     const [text2, setText2] = useState(OutlookCR)
 
     const copyOutlookIB = async () => {
-        try {
-            await navigator.clipboard.writeText(text1);
+        navigator.clipboard.writeText(text1).then(() => {
             // console.log('Text copied to clipboard');
-            toast("Content Copied to clipboard", {
+            toast("Content Copied to Clipboard", {
                 position: "top-center",
                 autoClose: 2000,
                 hideProgressBar: false,
@@ -24,8 +23,12 @@ const Buttons6 = (props) => {
                 progress: undefined,
                 type: "success",
 
-            });
-        } catch (err) {
+            })
+            setTimeout(() => {
+                navigator.clipboard.writeText(" ")
+                // console.log("clr clipboard")
+            }, 12000);
+        }).catch(() => {
             // console.error('Failed to copy text: ', err);
             toast("Failed to copy content to clipboard", {
                 position: "top-center",
@@ -38,13 +41,12 @@ const Buttons6 = (props) => {
                 type: "error",
 
             });
-        }
+        })
     }
     const copyOutlookCR = async () => {
-        try {
-            await navigator.clipboard.writeText(text2);
+        navigator.clipboard.writeText(text2).then(() => {
             // console.log('Text copied to clipboard');
-            toast("Content Copied to clipboard", {
+            toast("Content Copied to Clipboard", {
                 position: "top-center",
                 autoClose: 2000,
                 hideProgressBar: false,
@@ -54,8 +56,12 @@ const Buttons6 = (props) => {
                 progress: undefined,
                 type: "success",
 
-            });
-        } catch (err) {
+            })
+            setTimeout(() => {
+                navigator.clipboard.writeText(" ")
+                // console.log("clr clipboard")
+            }, 12000);
+        }).catch(() => {
             // console.error('Failed to copy text: ', err);
             toast("Failed to copy content to clipboard", {
                 position: "top-center",
@@ -68,7 +74,7 @@ const Buttons6 = (props) => {
                 type: "error",
 
             });
-        }
+        })
     }
     return (
         <div>
