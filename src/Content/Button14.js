@@ -14,10 +14,9 @@ const Buttons14 = (props) => {
 
 
     const copyVeevaBuild = async () => {
-        try {
-            await navigator.clipboard.writeText(text1);
+        navigator.clipboard.writeText(text1).then(() => {
             // console.log('Text copied to clipboard');
-            toast("Content Copied to clipboard", {
+            toast("Content Copied to Clipboard", {
                 position: "top-center",
                 autoClose: 2000,
                 hideProgressBar: false,
@@ -26,9 +25,13 @@ const Buttons14 = (props) => {
                 draggable: true,
                 progress: undefined,
                 type: "success",
-                
-            });
-        } catch (err) {
+
+            })
+            setTimeout(() => {
+                navigator.clipboard.writeText(" ")
+                // console.log("clr clipboard")
+            }, 12000);
+        }).catch(() => {
             // console.error('Failed to copy text: ', err);
             toast("Failed to copy content to clipboard", {
                 position: "top-center",
@@ -41,14 +44,13 @@ const Buttons14 = (props) => {
                 type: "error",
 
             });
-        }
+        })
     }
    
     const copySFMCBuild = async () => {
-        try {
-            await navigator.clipboard.writeText(text2);
+        navigator.clipboard.writeText(text2).then(() => {
             // console.log('Text copied to clipboard');
-            toast("Content Copied to clipboard", {
+            toast("Content Copied to Clipboard", {
                 position: "top-center",
                 autoClose: 2000,
                 hideProgressBar: false,
@@ -57,9 +59,13 @@ const Buttons14 = (props) => {
                 draggable: true,
                 progress: undefined,
                 type: "success",
-                
-            });
-        } catch (err) {
+
+            })
+            setTimeout(() => {
+                navigator.clipboard.writeText(" ")
+                // console.log("clr clipboard")
+            }, 12000);
+        }).catch(() => {
             // console.error('Failed to copy text: ', err);
             toast("Failed to copy content to clipboard", {
                 position: "top-center",
@@ -72,14 +78,13 @@ const Buttons14 = (props) => {
                 type: "error",
 
             });
-        }
+        })
     }
     
     const copyPreDRTBuild = async () => {
-        try {
-            await navigator.clipboard.writeText(text3);
+        navigator.clipboard.writeText(text3).then(() => {
             // console.log('Text copied to clipboard');
-            toast("Content Copied to clipboard", {
+            toast("Content Copied to Clipboard", {
                 position: "top-center",
                 autoClose: 2000,
                 hideProgressBar: false,
@@ -88,9 +93,13 @@ const Buttons14 = (props) => {
                 draggable: true,
                 progress: undefined,
                 type: "success",
-                
-            });
-        } catch (err) {
+
+            })
+            setTimeout(() => {
+                navigator.clipboard.writeText(" ")
+                // console.log("clr clipboard")
+            }, 12000);
+        }).catch(() => {
             // console.error('Failed to copy text: ', err);
             toast("Failed to copy content to clipboard", {
                 position: "top-center",
@@ -103,7 +112,7 @@ const Buttons14 = (props) => {
                 type: "error",
 
             });
-        }
+        })
     }
     
 
