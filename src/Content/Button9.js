@@ -115,15 +115,15 @@ const Buttons9 = (props) => {
                             className="fixed bg-white shadow-lg border-2 top-[16rem]  py-2 rounded-md px-4 w-auto z-30"
                         >
                             <ul className="flex-col justify-center items-center">
-                                <li className="flex py-2 hover:text-violet-400 text-black text-md items-center font-medium border-b-2 " onClick={copySFMCImageUpload}>
+                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2 " onClick={copySFMCImageUpload}>
                                   {props.Uploadtask} <ContentCopyRoundedIcon className='mx-2'/>  
                                 </li>
-                                <li className="flex py-2 hover:text-violet-400 text-black text-md items-center font-medium  " onClick={copySFMCImageReupload}>
+                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium  " onClick={copySFMCImageReupload}>
                                   {props.ReUploadtask} <ContentCopyRoundedIcon className='mx-2'/>  
                                 </li>
                             </ul>
                         </div>}
-                        <button className='flex justify-evenly m-auto text-center text-white bg-violet-400 border-0 p-2 focus:outline-none hover:bg-violet-500 rounded text-xs'
+                        <button className='flex justify-evenly m-auto text-center text-white bg-[#1b9a92] border-0 p-2 focus:outline-none hover:bg-[#00857C] rounded text-xs'
                         >
                             {props.name}
                         </button>

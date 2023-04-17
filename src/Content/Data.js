@@ -670,7 +670,7 @@ Cc: Accenture Id of WD uploader/Accenture Id of DPPM`)
 
 export const VeevaEmailIBUploadTask = (`Hi,
 
-Please upload html as well image folder on Veeva vault.
+Please upload html as well image folder on Veeva vault. (also remove the MSD.com for australia build)
 
 Veeva details:
 Document Name:
@@ -679,6 +679,7 @@ Product:
 Country:
 Subject:
 Pre Header{If any}:
+
 
 Regards,
 WD Name
@@ -691,7 +692,8 @@ Note:
 
 export const VeevaIBCR_ReuploadTask = (`Hi,
 
-Please upload html/image folder on Veeva vault.
+Please upload html/image folder on Veeva vault. (also remove the MSD.com for australia build)
+
 ET no-
 
 Veeva Details: (Provide details only if any change is mentioned)

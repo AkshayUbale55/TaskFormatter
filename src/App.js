@@ -14,14 +14,18 @@ import Buttons12 from "./Content/Button12";
 import Buttons13 from "./Content/Button13";
 import Buttons14 from "./Content/Button14";
 
+
 function App() {
+
+
   return (
     <>
+  
       <div className="App">
         <div className="text-center mt-2 font-semibold text-md p-0.5">
           WD to QA Assigning Format Task Template
         </div>
-        <div className="flex m-1 my-2 p-3 flex-col max-w-full justify-center items-center rounded bg-gray-500 shadow">
+        <div className="flex m-1 my-2 p-3 flex-col max-w-full justify-center items-center bg-slate-100 rounded shadow">
           <div className="flex flex-row justify-center space-x-2 m-1 p-2 items-center">
             <Buttons1
               IB="VEEVA IB"
@@ -59,7 +63,7 @@ function App() {
         <div className="text-center mt-2 font-semibold text-md p-1">
           Email Assign Task Template for CP/S3/PDF/Veeva/SFMC Uploads
         </div>
-        <div className="flex m-1 my-2 p-3 flex-col max-w-full justify-center items-center rounded bg-gray-500 shadow overflow-auto">
+        <div className="flex m-1 my-2 p-3 flex-col max-w-full justify-center items-center rounded bg-slate-100 shadow overflow-auto">
           <div className="flex flex-row justify-center space-x-2 m-1 p-1 items-center">
             <Buttons13
               VeevaToken="Veeva token"
@@ -103,12 +107,13 @@ function App() {
               ReUploadtask="S3 Image Reupload"
               name="S3 Image Upload Veeva"
             />
+           
           </div>
           <div className="p-10"></div>
         </div>
       </div>
     </>
-  
+
   );
 }
 
