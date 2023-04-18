@@ -199,7 +199,7 @@ const Buttons13 = (props) => {
                                 </li>
                             </ul>
                         </div>}
-                        <button className='flex justify-evenly m-auto text-center text-white bg-[#1b9a92] border-0 p-2 focus:outline-none hover:bg-[#00857C] rounded text-xs w-24'
+                        <button className='flex justify-evenly m-auto text-center text-white bg-[#1b9a92] border-0 p-2 focus:outline-none hover:bg-[#00857C] rounded text-xs w-[10rem]'
                         >
                             {props.name}
                         </button>

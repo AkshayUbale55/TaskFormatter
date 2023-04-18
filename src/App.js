@@ -61,7 +61,7 @@ function App() {
         </div>
         {/*  */}
         <div className="text-center mt-2 font-semibold text-md p-1">
-          Email Assign Task Template for CP/S3/PDF/Veeva/SFMC Uploads
+          Task Assign Template for CP/S3/PDF/Veeva/SFMC Uploads
         </div>
         <div className="flex m-1 my-2 p-3 flex-col max-w-full justify-center items-center rounded bg-slate-100 shadow overflow-auto">
           <div className="flex flex-row justify-center space-x-2 m-1 p-1 items-center">
@@ -70,42 +70,42 @@ function App() {
               SfmcToken="SFMC token"
               MsdTubeLinks="MSD Tube Links"
               CloudPageLinks="Cloud page Links"
-              name="Tokens Links"
+              name="Veeva/Sfmc Tokens format"
             />
 
             <Buttons9
               Uploadtask="SFMC Image Upload"
               ReUploadtask="SFMC Image Reupload"
-              name="SFMC Image Upload"
+              name="SFMC Image Upload Format"
             />
           </div>
           <div className="flex flex-row justify-center space-x-2 m-1 p-1 items-center">
-            <Buttons7 CPtask="CP Assigning Task" name="Image Cropping" />
+            <Buttons7 CPtask="CP Assigning Task" name="Img cropping frmt to cp" />
             <Buttons14
               Veevabuild="Veeva Build"
               Sfmcbuild="SFMC Build"
               PreDrtbuild="PreDRT Build"
-              name="Build Naming Format"
+              name="Build folder naming convention"
             />
-            <Buttons10 Uploadtask="PDF Upload" name="PDF Upload Veeva" />
+            <Buttons10 Uploadtask="PDF Upload" name="PDF Upload format Veeva" />
           </div>
           <div className="flex flex-row justify-center space-x-2 m-1 p-1 items-center">
             <Buttons11
               Uploadtask="Veeva Email IB Upload Task"
               ReUploadtask="Veeva IB/CR Reupload Task"
-              name="Veeva Email IB Upload"
+              name="Veeva Email Upload format"
             />
             <Buttons12
               Uploadtask="SFMC Email IB Upload Task"
               ReUploadtask="SFMC IB/CR Reupload Task"
-              name="SFMC Email IB Upload"
+              name="SFMC Email Upload format"
             />
           </div>
           <div className="flex flex-row justify-center space-x-2 m-1 p-1 items-center">
             <Buttons8
               Uploadtask="S3 Image Upload"
               ReUploadtask="S3 Image Reupload"
-              name="S3 Image Upload Veeva"
+              name="S3 Image Upload format to Veeva"
             />
            
           </div>
