@@ -8,6 +8,7 @@ Unit testing is completed for this request, can you please assign IB task to QA
 4. Unit testing Checklist: Email_UnitTestingChecklist_V1.xlsx
 5. Veeva Details ss: .png/.jpeg/.jpg
 6. Outlook Test Blast: .msg
+7. Unit testing video Link
 
 Scope: (Please provide here the WF link where scope is mentioned, and copy paste the scope as it is mentioned by DPPM)
 
@@ -41,6 +42,7 @@ Unit testing is completed for this request, can you please assign CR task to QA
 3. Change Log:
 4. Veeva Details ss: .png/.jpeg/.jpg (if changes done any)
 5. Outlook Test Blast: .msg
+6. Unit testing video Link
 
 Scope: (Please provide here the WF link where scope is mentioned, and copy paste the scope as it is mentioned by DPPM)
 
@@ -77,6 +79,7 @@ Unit testing is completed for this request, can you please assign the task to QA
 4. Unit testing Checklist: Email_UnitTestingChecklist _V2.xlsx
 5. Veeva Details ss: .png
 6. Outlook Test Blast: .msg 
+7. Unit testing video Link
 
 Scope: (Please provide here the WF link where scope is mentioned, and copy paste the scope as it is mentioned by DPPM) 
 
@@ -108,6 +111,7 @@ Unit testing is completed for this request, can you please assign IB task to QA
 4. Unit testing Checklist: Email_UnitTestingChecklist_V1.xlsx
 5. Outlook Test Blast: .msg
 6. SFMC Path:
+7. Unit testing video Link
 
 Scope: (Please provide here the WF link where scope is mentioned, and copy paste the scope as it is mentioned by DPPM)
 
@@ -139,6 +143,7 @@ Unit testing is completed for this request, can you please assign CR task to QA
 3. Change Log:
 4. Outlook Test Blast: .msg
 5. SFMC Path:
+6. Unit testing video Link
 
 Scope: (Please provide here the WF link where scope is mentioned, and copy paste the scope as it is mentioned by DPPM)
 
@@ -173,6 +178,7 @@ Unit testing is completed for this request, can you please assign the task to QA
 4. Unit testing Checklist: Email_UnitTestingChecklist _V2.xlsx
 5. Outlook Test Blast: .msg
 6. SFMC Path: 
+7. Unit testing video Link
 
 Scope: (Please provide here the WF link where scope is mentioned, and copy paste the scope as it is mentioned by DPPM) 
 
@@ -204,6 +210,7 @@ Unit testing is completed for this request, can you please assign IB task to QA
 4. Unit testing Checklist: Assembler_UnitTestingChecklist.xlsx
 5. Veeva Details ss: .png/.jpeg/.jpg
 6. Outlook Test Blast: .msg
+7. Unit testing video Link
 
 Scope: (Please provide here the WF link where scope is mentioned, and copy paste the scope as it is mentioned by DPPM)
 
@@ -237,6 +244,7 @@ Unit testing is completed for this request, can you please assign CR task to QA
 3. Assets Audit queries: .msg
 5. Veeva Details ss: .png/.jpeg/.jpg
 6. Outlook Test Blast: .msg
+7. Unit testing video Link
 
 Scope: (Please provide here the WF link where scope is mentioned, and copy paste the scope as it is mentioned by DPPM)
 
@@ -271,6 +279,7 @@ Unit testing is completed for this request, can you please assign IB task to QA
 4. Unit testing Checklist: Assembler_UnitTestingChecklist.xlsx
 5. Outlook Test Blast: .msg
 6. SFMC Path:
+7. Unit testing video Link
 
 Scope: (Please provide here the WF link where scope is mentioned, and copy paste the scope as it is mentioned by DPPM)
 
@@ -302,6 +311,7 @@ Unit testing is completed for this request, can you please assign CR task to QA
 3. Assets Audit queries: .msg
 5. Outlook Test Blast: .msg
 6. SFMC Path:
+7. Unit testing video Link
 
 Scope: (Please provide here the WF link where scope is mentioned, and copy paste the scope as it is mentioned by DPPM)
 
@@ -407,6 +417,8 @@ Assets:
 
 Scope:
 
+Unit testing video Link:
+
 Documents: (WF link)
 
 WD Queries:(If any)
@@ -433,6 +445,8 @@ Scope:
 
 Assets:
 
+Unit testing video Link:
+
 Documents:(WF link)
 
 WD Queries:(If any)
@@ -458,6 +472,8 @@ Live URL:
 Scope:
 
 Assets:
+
+Unit testing video Link:
 
 Documents:(WF link)
 
@@ -505,6 +521,7 @@ Unit testing is completed for this request, can you please assign task to QA
 
 TTest in build: Subject_line.oft file
 Mockup: .pdf/. pptx
+Unit testing video Link:
 Test blast: outlook test blast
 Query mail (if any):
 
@@ -528,6 +545,7 @@ Unit testing is completed for this request, can you please assign task to QA
 Test in build: Subject_line.oft file
 Reference build: Ref_ Subject_Line.oft
 Test blast: outlook test blast
+Unit testing video Link:
 Query mail (if any):
 
 Scope: (Please provide here the WF link where scope is mentioned, and copy paste the scope as it is mentioned by DPPM)
