@@ -3,6 +3,18 @@
   "name": "Task Formater",
   "description": "This extension will help to copy the content for specific task and will reduce the time in asssiging a task",
   "version": "1.0",
+  "permissions": ["activeTab"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
   "browser_action": {
     "default_popup": "index.html",
     "default_icon": "icon.png"

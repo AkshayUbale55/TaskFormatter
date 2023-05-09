@@ -112,7 +112,7 @@ const Buttons8 = (props) => {
                             onMouseLeave={() => {
                                 setDropDown(false);
                             }}
-                            className="fixed bg-white shadow-lg border-2 top-[25.5rem] py-1 rounded-md px-3 w-auto z-30"
+                            className="fixed bg-white shadow-lg border-2 top-[14.7rem] py-1 rounded-md px-3 w-auto z-30"
                         >
                             <ul className="flex-col justify-center items-center">
                                 <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2" onClick={copyS3ImageUpload}>

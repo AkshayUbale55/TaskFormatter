@@ -143,7 +143,7 @@ const Buttons2 = (props) => {
                             onMouseLeave={() => {
                                 setDropDown(false);
                             }}
-                            className="fixed left-[8rem] bg-white shadow-lg border-2 top-[5.5rem]   py-1 rounded-md px-3 w-auto z-30"
+                            className="fixed bg-white shadow-lg border-2 top-[7rem]   py-1 rounded-md px-3 w-auto z-30"
                         >
                             <ul className="flex-col justify-center items-center">
                                 <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2" onClick={copySfmcIB}>
