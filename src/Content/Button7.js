@@ -78,7 +78,7 @@ const Buttons7 = (props) => {
                             onMouseLeave={() => {
                                 setDropDown(false);
                             }}
-                            className="fixed bg-white shadow-lg border-2 top-[14.7rem]  py-2 rounded-md px-4 w-auto z-30"
+                            className="fixed bg-white shadow-lg border-2 top-[17rem]  py-2 rounded-md px-4 w-auto z-30"
                         >
                             <ul className="flex-col justify-center items-center">
                                 <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium " onClick={copyImageCropping}>
@@ -86,7 +86,7 @@ const Buttons7 = (props) => {
                                 </li>
                             </ul>
                         </div>}
-                        <button className='flex items-center m-auto text-center text-white bg-[#1b9a92] border-0 p-2 focus:outline-none hover:bg-[#00857C] rounded text-xs'
+                        <button className='flex items-center m-auto text-center text-white bg-[#1b9a92] border-0 p-2 focus:outline-none hover:bg-[#00857C] rounded text-xs w-[11rem]'
                         >
                             {props.name}
                         </button>

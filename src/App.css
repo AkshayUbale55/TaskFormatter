@@ -1,8 +1,8 @@
 .App {
     text-align: center;
-    min-width: 650px;
-    max-width: 720px;
-    max-height: 200;
+    min-width: 500px;
+    max-width: 600px;
+    min-height: 300px;
 }
 
 
