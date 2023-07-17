@@ -182,20 +182,20 @@ const Buttons3 = (props) => {
                             >
                                 <ul className="flex-col justify-center items-center">
                                     <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2" onClick={copyAssemblerVeevaIB}>
-                                        {props.IB} <ContentCopyRoundedIcon className='mx-2'/>  
+                                        {props.VeevaIB} <ContentCopyRoundedIcon className='mx-2'/>  
                                     </li>
                                     <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2" onClick={copyAssemblerVeevaCR}>
-                                        {props.IB1} <ContentCopyRoundedIcon className='mx-2'/>  
+                                        {props.VeevaCR} <ContentCopyRoundedIcon className='mx-2'/>  
                                     </li>
                                     <li
                                         className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2" onClick={copyAssemblerSfmcIB}
                                     >
-                                        {props.CR} <ContentCopyRoundedIcon className='mx-2'/>  
+                                        {props.SfmcIB} <ContentCopyRoundedIcon className='mx-2'/>  
                                     </li>
                                     <li
                                         className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium" onClick={copyAssemblerSfmcCR}
                                     >
-                                        {props.CR1} <ContentCopyRoundedIcon className='mx-2'/>  
+                                        {props.SfmcCR} <ContentCopyRoundedIcon className='mx-2'/>  
                                     </li>
                                     
                                 </ul>

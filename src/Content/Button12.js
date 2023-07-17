@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-import { SFMCEmailIBUploadTask,SFMCIB_CRReuploadTask } from "./Data"
+import { SFMCbuildUploadTask,SFMCbuildReuploadTask } from "./Data"
 import { ToastContainer, toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 import ContentCopyRoundedIcon from '@mui/icons-material/ContentCopyRounded';
@@ -8,11 +8,11 @@ import ContentCopyRoundedIcon from '@mui/icons-material/ContentCopyRounded';
 const Buttons12 = (props) => {
     const [dropDown, setDropDown] = useState(false);
 
-    const [text1, setText1] = useState(SFMCEmailIBUploadTask);
-    const [text2, setText2] = useState(SFMCIB_CRReuploadTask);
+    const [text1, setText1] = useState(SFMCbuildUploadTask);
+    const [text2, setText2] = useState(SFMCbuildReuploadTask);
 
 
-    const copySFMCEmailIBUploadTask = async () => {
+    const copySFMCbuildUploadTask = async () => {
         navigator.clipboard.writeText(text1).then(() => {
             // console.log('Text copied to clipboard');
             toast("Content Copied to Clipboard", {
@@ -46,7 +46,7 @@ const Buttons12 = (props) => {
         })
     }
    
-    const copySFMCIB_CRReuploadTask = async () => {
+    const copySFMCbuildReuploadTask = async () => {
         navigator.clipboard.writeText(text2).then(() => {
             // console.log('Text copied to clipboard');
             toast("Content Copied to Clipboard", {
@@ -115,10 +115,10 @@ const Buttons12 = (props) => {
                             className="fixed bg-white shadow-lg border-2 top-[13.5rem]  py-2 rounded-md px-4 w-auto z-30"
                         >
                             <ul className="flex-col justify-center items-center">
-                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2 " onClick={copySFMCEmailIBUploadTask}>
+                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2 " onClick={copySFMCbuildUploadTask}>
                                   {props.Uploadtask} <ContentCopyRoundedIcon className='mx-2'/>  
                                 </li>
-                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium  " onClick={copySFMCIB_CRReuploadTask}>
+                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium  " onClick={copySFMCbuildReuploadTask}>
                                   {props.ReUploadtask} <ContentCopyRoundedIcon className='mx-2'/>  
                                 </li>
                             </ul>

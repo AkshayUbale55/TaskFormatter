@@ -5,7 +5,7 @@ import {
   AccordionHeader,
   AccordionBody,
 } from "@material-tailwind/react";
-import { ArrowCircleDown, ArrowDropDownSharp } from "@mui/icons-material";
+import { ArrowDropDownSharp } from "@mui/icons-material";
 import Buttons1 from "./Content/Button1";
 import Buttons2 from "./Content/Button2";
 import Buttons3 from "./Content/Button3";
@@ -40,7 +40,7 @@ function App() {
     setOpen(open === value ? 0 : value);
   };
   const customAnimation = {
-    mount: { scale: 1 },
+    mount: { scale: 0.5 },
     unmount: { scale: 0.9 },
   };
 
@@ -79,10 +79,10 @@ function App() {
                     name="SFMC Email"
                   />
                   <Buttons3
-                    IB="Veeva IB"
-                    CR="Veeva CR"
-                    IB1="SFMC IB"
-                    CR1="SFMC CR"
+                    VeevaIB="Veeva IB"
+                    VeevaCR="Veeva CR"
+                    SfmcIB="SFMC IB"
+                    SfmcCR="SFMC CR"
                     name="Assembler"
                   />
                 </div>
@@ -119,18 +119,18 @@ function App() {
                     CloudPageLinks="Cloud page Links"
                     name="Veeva & Sfmc Tokens format"
                   />
-                  <Buttons10 Uploadtask="PDF Upload" name="PDF Upload format for Veeva  " />
+                  <Buttons10 Uploadtask="PDF Upload" name="Veeva PDF upload format" />
                 </div>
                 <div className="flex flex-row justify-center items-center space-x-2 p-2">
                   <Buttons11
-                    Uploadtask="Veeva Email IB Upload Task"
-                    ReUploadtask="Veeva IB/CR Reupload Task"
-                    name="Upload format for Veeva Email  "
+                    Uploadtask="Veeva build Upload"
+                    ReUploadtask="Veeva build Reupload"
+                    name="Upload format for VeevaVault"
                   />
                   <Buttons12
-                    Uploadtask="SFMC Email IB Upload Task"
-                    ReUploadtask="SFMC IB/CR Reupload Task"
-                    name="Upload format for SFMC Email "
+                    Uploadtask="SFMC build Upload"
+                    ReUploadtask="SFMC build Reupload"
+                    name="Upload format for SFMC "
                   />
                 </div>
               </div>}
@@ -154,7 +154,7 @@ function App() {
                   <Buttons8
                     Uploadtask="S3 Image Upload"
                     ReUploadtask="S3 Image Reupload"
-                    name="S3 Image Upload format to Veeva"
+                    name="S3 Img Upload format for Veeva"
                   />
                   
                 </div>

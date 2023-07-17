@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-import { VeevaEmailIBUploadTask,VeevaIBCR_ReuploadTask } from "./Data"
+import { VeevabuildUploadTask,VeevabuildReuploadTask } from "./Data"
 import { ToastContainer, toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 import ContentCopyRoundedIcon from '@mui/icons-material/ContentCopyRounded';
@@ -8,11 +8,11 @@ import ContentCopyRoundedIcon from '@mui/icons-material/ContentCopyRounded';
 const Buttons11 = (props) => {
     const [dropDown, setDropDown] = useState(false);
 
-    const [text1, setText1] = useState(VeevaEmailIBUploadTask);
-    const [text2, setText2] = useState(VeevaIBCR_ReuploadTask);
+    const [text1, setText1] = useState(VeevabuildUploadTask);
+    const [text2, setText2] = useState(VeevabuildReuploadTask);
 
 
-    const copyVeevaEmailIBUploadTask = async () => {
+    const copyVeevabuildUploadTask = async () => {
         navigator.clipboard.writeText(text1).then(() => {
             // console.log('Text copied to clipboard');
             toast("Content Copied to Clipboard", {
@@ -46,7 +46,7 @@ const Buttons11 = (props) => {
         })
     }
    
-    const copyVeevaIBCR_ReuploadTask = async () => {
+    const copyVeevabuildReuploadTask = async () => {
         navigator.clipboard.writeText(text2).then(() => {
             // console.log('Text copied to clipboard');
             toast("Content Copied to Clipboard", {
@@ -115,10 +115,10 @@ const Buttons11 = (props) => {
                             className="fixed bg-white shadow-lg border-2 top-[13.5rem]  py-2 rounded-md px-4 w-auto z-30"
                         >
                             <ul className="flex-col justify-center items-center">
-                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2 " onClick={copyVeevaEmailIBUploadTask}>
+                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2 " onClick={VeevabuildUploadTask}>
                                   {props.Uploadtask} <ContentCopyRoundedIcon className='mx-2'/>  
                                 </li>
-                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium  " onClick={copyVeevaIBCR_ReuploadTask}>
+                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium  " onClick={VeevabuildReuploadTask}>
                                   {props.ReUploadtask} <ContentCopyRoundedIcon className='mx-2'/>  
                                 </li>
                             </ul>

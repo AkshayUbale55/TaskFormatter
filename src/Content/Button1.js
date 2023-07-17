@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import { VeevaIB, SfmcToVeeva, VeevaCR } from "./Data"
+import { VeevaIB, VeevaToSfmc, VeevaCR } from "./Data"
 import { ToastContainer, toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 import ContentCopyRoundedIcon from '@mui/icons-material/ContentCopyRounded';
@@ -13,7 +13,7 @@ const Buttons1 = (props) => {
 
     const [text1, setText1] = useState(VeevaIB);
     const [text2, setText2] = useState(VeevaCR);
-    const [text3, setText3] = useState(SfmcToVeeva);
+    const [text3, setText3] = useState(VeevaToSfmc);
    
 
     const copyVeevaIB = () => {
@@ -83,7 +83,7 @@ const Buttons1 = (props) => {
             });
         })
     }
-    const copySfmcToVeeva =  () => {
+    const copyVeevaToSfmc =  () => {
         navigator.clipboard.writeText(text3).then(() => {
             // console.log('Text copied to clipboard');
             toast("Content Copied to Clipboard", {
@@ -160,7 +160,7 @@ const Buttons1 = (props) => {
                                 <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2" onClick={copyVeevaCR}>
                                     {props.CR} <ContentCopyRoundedIcon className='mx-2' />
                                 </li>
-                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium" onClick={copySfmcToVeeva}>
+                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium" onClick={copyVeevaToSfmc}>
                                     {props.Coversion} <ContentCopyRoundedIcon className='mx-2' />
                                 </li>
                             </ul>
