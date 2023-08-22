@@ -81,7 +81,7 @@ const Buttons7 = (props) => {
                             className="fixed bg-white shadow-lg border-2 top-[17rem]  py-2 rounded-md px-4 w-auto z-30"
                         >
                             <ul className="flex-col justify-center items-center">
-                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium justify-between" onClick={copyImageCropping}>
+                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium " onClick={copyImageCropping}>
                                   {props.CPtask} <ContentCopyRoundedIcon className='mx-2'/>  
                                 </li>
                             </ul>

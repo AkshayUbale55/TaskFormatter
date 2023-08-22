@@ -150,14 +150,14 @@ const Buttons14 = (props) => {
                             }}
                             className="fixed bg-white shadow-lg border-2 top-[17rem]  py-2 rounded-md px-4 w-auto z-30"
                         >
-                            <ul className="flex-col justify-center items-center overflow-y-scroll h-12">
-                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2 justify-between" onClick={copyVeevaBuild}>
+                            <ul className="flex-col justify-center items-center">
+                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2" onClick={copyVeevaBuild}>
                                   {props.Veevabuild} <ContentCopyRoundedIcon className='mx-2'/>  
                                 </li>
-                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2 justify-between" onClick={copySFMCBuild}>
+                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2" onClick={copySFMCBuild}>
                                   {props.Sfmcbuild} <ContentCopyRoundedIcon className='mx-2'/>  
                                 </li>
-                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium justify-between " onClick={copyPreDRTBuild}>
+                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium " onClick={copyPreDRTBuild}>
                                   {props.PreDrtbuild} <ContentCopyRoundedIcon className='mx-2'/>  
                                 </li>
                                 

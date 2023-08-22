@@ -23,10 +23,6 @@ Subject:
 Pre-header:
 
 Sync cycle time:
-Gmail:-
-Yahoo:-
-Hotmail:-
-
 
 Notes (If any):
 
@@ -63,9 +59,6 @@ Subject:
 Pre-header:
 
 Sync cycle time:
-Gmail:-
-Yahoo:-
-Hotmail:-
 
 Notes (If any):
 
@@ -103,9 +96,6 @@ Subject:
 Pre-header: 
 
 Sync cycle time:
-Gmail:-
-Yahoo:-
-Hotmail:-
 
 Notes (If any):
 
@@ -138,11 +128,6 @@ Sender Profile:
 Campaign Tag (Taxonomy):
 Subject:
 Pre-header:
-
-Sync cycle time:
-Gmail:-
-Yahoo:-
-Hotmail:-
 
 Notes (If any):
 
@@ -177,11 +162,6 @@ Sender Profile:
 Campaign Tag (Taxonomy):
 Subject:
 Pre-header:
-
-Sync cycle time:
-Gmail:-
-Yahoo:-
-Hotmail:-
 
 Notes (If any):
 
@@ -218,11 +198,6 @@ Campaign Tag (Taxonomy):
 Subject:
 Pre-header:
 
-Sync cycle time:
-Gmail:-
-Yahoo:-
-Hotmail:-
-
  Notes (If any):
 
  FYI: @DPPM @FTM
@@ -255,9 +230,6 @@ Subject:
 Pre-header:
 
 Sync cycle time:
-Gmail:-
-Yahoo:-
-Hotmail:-
 
 Notes (If any):
 
@@ -291,9 +263,6 @@ Subject:
 Pre-header:
 
 Sync cycle time:
-Gmail:-
-Yahoo:-
-Hotmail:-
 
 Notes (If any):
 
@@ -327,11 +296,6 @@ Campaign Tag (Taxonomy):
 Subject:
 Pre-header:
 
-Sync cycle time:
-Gmail:-
-Yahoo:-
-Hotmail:-
-
 Notes (If any):
 
 FYI: @DPPM @FTM
@@ -362,11 +326,6 @@ Sender Profile:
 Campaign Tag (Taxonomy):
 Subject:
 Pre-header:
-
-Sync cycle time:
-Gmail:-
-Yahoo:-
-Hotmail:-
 
 Notes (If any):
 

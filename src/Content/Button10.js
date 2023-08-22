@@ -80,7 +80,7 @@ const Buttons10 = (props) => {
                             className="fixed bg-white shadow-lg border-2 top-[10.5rem]  py-2 rounded-md px-4 w-auto z-30"
                         >
                             <ul className="flex-col justify-center items-center">
-                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium  justify-between " onClick={copyPDFUpload}>
+                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium  " onClick={copyPDFUpload}>
                                   {props.Uploadtask} <ContentCopyRoundedIcon className='mx-2'/>  
                                 </li>
                               
