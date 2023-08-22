@@ -185,16 +185,16 @@ const Buttons13 = (props) => {
                             className="fixed bg-white shadow-lg border-2 top-[10.5rem]  py-2 rounded-md px-4 w-auto z-30"
                         >
                             <ul className="flex-col justify-center items-center">
-                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium  border-b-2" onClick={copyVeevaToken}>
+                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium  border-b-2 justify-between" onClick={copyVeevaToken}>
                                   {props.VeevaToken} <ContentCopyRoundedIcon className='mx-2'/>  
                                 </li>
-                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium  border-b-2" onClick={copySFMCToken}>
+                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium  border-b-2 justify-between" onClick={copySFMCToken}>
                                   {props.SfmcToken} <ContentCopyRoundedIcon className='mx-2'/>  
                                 </li>
-                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2" onClick={copyMSDTubeLinks}>
+                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2 justify-between" onClick={copyMSDTubeLinks}>
                                   {props.MsdTubeLinks} <ContentCopyRoundedIcon className='mx-2'/>  
                                 </li>
-                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium  " onClick={copyCloudpageLinks}>
+                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium   justify-between" onClick={copyCloudpageLinks}>
                                   {props.CloudPageLinks} <ContentCopyRoundedIcon className='mx-2'/>  
                                 </li>
                             </ul>
