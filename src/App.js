@@ -19,7 +19,7 @@ import Buttons10 from "./Content/Button10";
 import Buttons11 from "./Content/Button11";
 import Buttons12 from "./Content/Button12";
 import Buttons13 from "./Content/Button13";
-import Buttons14 from "./Content/Button14";
+import Testblast from  "./Content/Testblast";
 
 function Icon({ id, open }) {
   return (
@@ -144,8 +144,8 @@ function App() {
               </div>
             </AccordionHeader>
             <AccordionBody>
-              {open === 3 && <div className="flex flex-col m-1 my-2 p-3 max-w-full justify-center items-center rounded bg-slate-100 shadow overflow-auto">
-                <div className="flex flex-row justify-center space-x-2 p-2 items-center">
+              {open === 3 && <div className="flex flex-col my-2 p-3 min-w-full justify-center items-center rounded bg-slate-100 shadow overflow-auto">
+                <div className="flex flex-row justify-center space-x-2 p-2 items-center overflow-hidden">
                   <Buttons9
                     Uploadtask="SFMC Image Upload"
                     ReUploadtask="SFMC Image Reupload"
@@ -156,17 +156,13 @@ function App() {
                     ReUploadtask="S3 Image Reupload"
                     name="S3 Img Upload format for Veeva"
                   />
-                  
                 </div>
                 <div className="flex flex-row justify-center items-center space-x-2 p-2">
 
                     <Buttons7 CPtask="CP Assigning Task" name="Img cropping format to cp" />
-                    <Buttons14
-                      Veevabuild="Veeva Build"
-                      Sfmcbuild="SFMC Build"
-                      PreDrtbuild="PreDRT Build"
-                      name="Build folder naming convention"
-                    />
+                    <Testblast 
+                    TestBlast="TestBlast"  
+                    name="Test Blast request" />
                   </div>
               </div>}
             </AccordionBody>

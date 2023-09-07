@@ -23,6 +23,9 @@ Subject:
 Pre-header:
 
 Sync cycle time:
+Gmail:-
+Yahoo:-
+Hotmail:-
 
 Notes (If any):
 
@@ -57,8 +60,12 @@ Product:
 Country:
 Subject:
 Pre-header:
+Linked Doc: (for taiwan only
 
 Sync cycle time:
+Gmail:-
+Yahoo:-
+Hotmail:-
 
 Notes (If any):
 
@@ -96,6 +103,9 @@ Subject:
 Pre-header: 
 
 Sync cycle time:
+Gmail:-
+Yahoo:-
+Hotmail:-
 
 Notes (If any):
 
@@ -128,6 +138,11 @@ Sender Profile:
 Campaign Tag (Taxonomy):
 Subject:
 Pre-header:
+
+Blast Time:-
+Gmail:-
+Yahoo:-
+Hotmail:-
 
 Notes (If any):
 
@@ -162,6 +177,11 @@ Sender Profile:
 Campaign Tag (Taxonomy):
 Subject:
 Pre-header:
+
+Blast Time:
+Gmail:-
+Yahoo:-
+Hotmail:-
 
 Notes (If any):
 
@@ -198,7 +218,12 @@ Campaign Tag (Taxonomy):
 Subject:
 Pre-header:
 
- Notes (If any):
+Blast Time:
+Gmail:-
+Yahoo:-
+Hotmail:-
+
+Notes (If any):
 
  FYI: @DPPM @FTM
 
@@ -228,8 +253,12 @@ Product:
 Country:
 Subject:
 Pre-header:
+Linked Doc: (for taiwan only)
 
 Sync cycle time:
+Gmail:-
+Yahoo:-
+Hotmail:-
 
 Notes (If any):
 
@@ -261,8 +290,12 @@ Product:
 Country:
 Subject:
 Pre-header:
+Linked Doc: (for taiwan only
 
 Sync cycle time:
+Gmail:-
+Yahoo:-
+Hotmail:-
 
 Notes (If any):
 
@@ -296,7 +329,13 @@ Campaign Tag (Taxonomy):
 Subject:
 Pre-header:
 
+Blast Time:
+Gmail:-
+Yahoo:-
+Hotmail:-
+
 Notes (If any):
+
 
 FYI: @DPPM @FTM
 
@@ -326,6 +365,11 @@ Sender Profile:
 Campaign Tag (Taxonomy):
 Subject:
 Pre-header:
+
+Blast Time:
+Gmail:-
+Yahoo:-
+Hotmail:-
 
 Notes (If any):
 
@@ -420,11 +464,9 @@ Assets:
 
 Scope:
 
-Unit testing video Link:
+UnitChecklist:-
 
 Documents: (WF link)
-
-WD Queries:(If any)
 
 Notes (If any):
 
@@ -448,11 +490,7 @@ Scope:
 
 Assets:
 
-Unit testing video Link:
-
 Documents:(WF link)
-
-WD Queries:(If any)
 
 Notes (If any):
 
@@ -476,11 +514,8 @@ Scope:
 
 Assets:
 
-Unit testing video Link:
-
 Documents:(WF link)
 
-WD Queries:(If any)
 
 Notes (If any):
 
@@ -505,8 +540,6 @@ Scope:
 Assets:
 
 Documents:(WF link)
-
-WD Queries:(If any)
 
 Notes (If any):
 
@@ -747,11 +780,10 @@ Pre-header:
 Regards,
 WD Name
 
----------------------------------------------------------------------------
+`)
 
-Assigning to Campaign Engineer(CE) for SFMC test blast.
-
-Hi,
+export const TestBlast = (`
+Hi @Campaign Engineer,
 
 The build is uploaded on SFMC please provide test blast.
 
@@ -759,7 +791,7 @@ SFMC Path:
 
 Please find the email IDs:
 apacverify01@gmail.com
-emailverify01@yahoo.com
+emailverify0101@yahoo.com
 apacverify01@hotmail.com
 Your Accenture ID
 
@@ -780,30 +812,7 @@ SFMC Path:
 
 Regards,
 WD Name
-
----------------------------------------------------------------------------
-
-Assigning to Campaign Engineer(CE) for SFMC test blast.
-
-Hi,
-
-The build is uploaded on SFMC please provide test blast.
-
-SFMC Path:
-
-Please find the email IDs:
-apacverify01@gmail.com
-emailverify01@yahoo.com
-apacverify01@hotmail.com
-Your Accenture ID
-
-Regards,
-WD Name
-
-Notes (If any):
-1) Zip the html and then convert into .txt format and attached on mail.
-2) You will receive SFMC Path which is important while assigning to QA.
-3) Named your build as Jobcode_IB.zip while assigning to QA.`)
+`)
 
 
 
@@ -851,53 +860,7 @@ Veeva: https://cloud.mail.msdconnect.my/Lagevrio_Launch/?id={{Account.MSD_CORE_M
 
 SFMC: https://cloud.mail.msdconnect.my/Lagevrio_Launch/?id=%%mdmid%%`)
  
-export const VeevaBuild = (`Veeva Build
 
-Initial Build(IB): ET-no_Jobcode_IB.zip
-For Eg: ET-37301_AU-KEY-01280_IB.zip
 
-Update in same build
-For Eg: ET-37301_AU-KEY-01280_IB_V1.zip
 
-Change Round(CR): ET-no_Jobcode_CR1.zip
-For Eg: ET-37301_AU-KEY-01280_CR1.zip
 
-Update in same build
-For Eg: ET-37301_AU-KEY-01280_CR1_V1.zip
-
-Notes (If any):
-
-Always name HTML with Jobcode.
-For Eg: AU-KEY-01280.html
-
-Images should be renamed in lowercase`)
-
-export const SFMCBuild = (`Initial Build(IB): Jobcode_IB.zip
-For Eg: AU-KEY-01280_IB.zip
-
-Update in same build
-For Eg: AU-KEY-01280_IB_V1.zip
-
-Change Round(CR): Jobcode_CR1.zip
-For Eg: AU-KEY-01280_CR1.zip
-
-Update in same build
-For Eg: AU-KEY-01280_CR1_V1.zip
-
-Notes (If any):
-Always name HTML with Jobcode.
-For Eg: AU-KEY-01280.html
-
-Images should be renamed in lowercase`)
-
-export const PreDRTBuild = (`PreDRT Build Veeva: ET-no_Jobcode_PreDRT.zip
-For Eg: ET-37301_AU-KEY-01280_PreDRT.zip
-
-PreDRT Build SFMC: Jobcode_PreDRT.zip
-For Eg: AU-KEY-01280_PreDRT.zip
-
-Notes (If any):
-Always name HTML with Jobcode.
-For Eg: AU-KEY-01280.html
-
-Images should be renamed in lowercase`)

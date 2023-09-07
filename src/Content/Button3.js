@@ -181,19 +181,19 @@ const Buttons3 = (props) => {
                                 className="fixed bg-white shadow-lg border-2 top-[7rem] py-2 rounded-md px-4 w-auto z-30"
                             >
                                 <ul className="flex-col justify-center items-center">
-                                    <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2" onClick={copyAssemblerVeevaIB}>
+                                    <li className="flex justify-between py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2" onClick={copyAssemblerVeevaIB}>
                                         {props.VeevaIB} <ContentCopyRoundedIcon className='mx-2'/>  
                                     </li>
-                                    <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2" onClick={copyAssemblerVeevaCR}>
+                                    <li className="flex justify-between py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2" onClick={copyAssemblerVeevaCR}>
                                         {props.VeevaCR} <ContentCopyRoundedIcon className='mx-2'/>  
                                     </li>
                                     <li
-                                        className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2" onClick={copyAssemblerSfmcIB}
+                                        className="flex justify-between py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2" onClick={copyAssemblerSfmcIB}
                                     >
                                         {props.SfmcIB} <ContentCopyRoundedIcon className='mx-2'/>  
                                     </li>
                                     <li
-                                        className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium" onClick={copyAssemblerSfmcCR}
+                                        className="flex justify-between py-2 hover:text-[#00857C] text-black text-md items-center font-medium" onClick={copyAssemblerSfmcCR}
                                     >
                                         {props.SfmcCR} <ContentCopyRoundedIcon className='mx-2'/>  
                                     </li>

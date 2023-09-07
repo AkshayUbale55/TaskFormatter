@@ -146,17 +146,17 @@ const Buttons2 = (props) => {
                             className="fixed bg-white shadow-lg border-2 top-[7rem]   py-1 rounded-md px-3 w-auto z-30"
                         >
                             <ul className="flex-col justify-center items-center">
-                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2" onClick={copySfmcIB}>
+                                <li className="flex py-2 justify-between hover:text-[#00857C] text-black text-md items-center font-medium border-b-2" onClick={copySfmcIB}>
                                     {props.IB} <ContentCopyRoundedIcon className='mx-2'/>  
                                 </li>
 
                                 <li
-                                    className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium border-b-2" onClick={copySfmcCR}
+                                    className="flex py-2 justify-between hover:text-[#00857C] text-black text-md items-center font-medium border-b-2" onClick={copySfmcCR}
                                 >
                                     {props.CR} <ContentCopyRoundedIcon className='mx-2'/>  
                                 </li>
 
-                                <li className="flex py-2 hover:text-[#00857C] text-black text-md items-center font-medium" onClick={copySfmctoVeeva}>
+                                <li className="flex py-2 justify-between hover:text-[#00857C] text-black text-md items-center font-medium" onClick={copySfmctoVeeva}>
                                     {props.Coversion} <ContentCopyRoundedIcon className='mx-2'/>  
                                 </li>
                             </ul>
