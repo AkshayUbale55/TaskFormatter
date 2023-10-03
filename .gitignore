@@ -12,6 +12,7 @@
 /build
 /build.crx
 /build.pem
+*.zip
 # misc
 .DS_Store
 .env.local

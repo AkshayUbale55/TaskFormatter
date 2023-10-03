@@ -115,10 +115,10 @@ const Buttons11 = (props) => {
                             className="fixed bg-white shadow-lg border-2 top-[13.5rem]  py-2 rounded-md px-4 w-auto z-30"
                         >
                             <ul className="flex-col justify-center items-center">
-                                <li className="flex py-2 hover:text-[#00857C] text-black  justify-between text-md items-center font-medium border-b-2 " onClick={VeevabuildUploadTask}>
+                                <li className="flex py-2 hover:text-[#00857C] text-black  justify-between text-md items-center font-medium border-b-2 " onClick={copyVeevabuildUploadTask}>
                                   {props.Uploadtask} <ContentCopyRoundedIcon className='mx-2'/>  
                                 </li>
-                                <li className="flex py-2 hover:text-[#00857C] text-black justify-between text-md items-center font-medium  " onClick={VeevabuildReuploadTask}>
+                                <li className="flex py-2 hover:text-[#00857C] text-black justify-between text-md items-center font-medium  " onClick={copyVeevabuildReuploadTask}>
                                   {props.ReUploadtask} <ContentCopyRoundedIcon className='mx-2'/>  
                                 </li>
                             </ul>
