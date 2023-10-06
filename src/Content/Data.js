@@ -787,21 +787,18 @@ Hi @Campaign Engineer,
 
 The build is uploaded on SFMC please provide test blast.
 
-SFMC Path:
+1.	SFMC Path :-
+2.	Sender Profile :-
+3.  Please find the email IDs:
+     apacverify01@gmail.com
+     emailverify0101@yahoo.com
+     apacverify01@hotmail.com
+     Your Accenture ID
 
-Please find the email IDs:
-apacverify01@gmail.com
-emailverify0101@yahoo.com
-apacverify01@hotmail.com
-Your Accenture ID
 
 Regards,
 WD Name
 
-
-1) Zip the html and then convert into .txt format and attached on mail.
-2) You will receive SFMC Path which is important while assigning to QA.
-3) Named your build as Jobcode_IB.zip while assigning to QA.
 `)
 
 export const SFMCbuildReuploadTask = (`Hi,

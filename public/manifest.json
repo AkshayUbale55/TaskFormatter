@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Task Formater",
   "description": "This extension will help to copy the content for specific task and will reduce the time in asssiging a task",
-  "version": "1.3",
+  "version": "1.4",
   "permissions": ["activeTab"],
   "background": {
     "scripts": ["background.js"],
